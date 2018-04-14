@@ -5,6 +5,38 @@ It is a python package to colorize text for print.
 
 ## Usage
 
+### black( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### red( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### green( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### yellow( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### blue( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### magenta( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### cyan( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
+### white( **str** )
+- **str** (str): string to be colored
+- **output** : colored string
+
 ### esccolor( **fg**, **bg**=None, **attr**=None)
 - **fg** (str): text color
 - **bg** (str): background color
@@ -31,10 +63,13 @@ It is a python package to colorize text for print.
 
 ## Sample
     from esccolor.esccolor import esccolor
+	from esccolor.esccolor import green
+
 	print( esccolor('red')('aka') )
 	print( esccolor('red', 'cyan')('mizu') )
 	blink = escolor('white', attr='blink')
 	print( blink('ten') )
+	print( green('midori') )
 
 ## Install
 

@@ -8,7 +8,7 @@ sys.path.append('./tests')
 
 setup(
 	name= 'esccolor', # Application name:
-	version= '0.0.1', # Version number
+	version= '0.0.2', # Version number
 
 	author= 'Masayuki Tanaka', # Author name
 	author_email= 'm@like.silk.to', # Author mail	

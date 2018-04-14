@@ -36,3 +36,28 @@ def esccolor( fg, bg=None, attr=None ):
 		return pre + str + end
 
 	return text
+
+def black( str ):
+	return '\033[30m' + str + '\033[0m'
+
+def red( str ):
+	return '\033[31m' + str + '\033[0m'
+
+def green( str ):
+	return '\033[32m' + str + '\033[0m'
+
+def yellow( str ):
+	return '\033[33m' + str + '\033[0m'
+
+def blue( str ):
+	return '\033[34m' + str + '\033[0m'
+
+def magenta( str ):
+	return '\033[35m' + str + '\033[0m'
+
+def cyan( str ):
+	return '\033[36m' + str + '\033[0m'
+
+def white( str ):
+	return '\033[37m' + str + '\033[0m'
+
