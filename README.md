@@ -73,7 +73,7 @@ It is a python package to colorize text for print.
 
 ## Install
 
-`% pip install git+https://github.com/likesilkto`
+`% pip install git+https://github.com/likesilkto/esccolor`
 
 ## Links
 
